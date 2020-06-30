@@ -11,9 +11,10 @@ import marked from "marked";
 import { computed, reactive } from "vue";
 
 export default {
+  name: "Markdown",
   data() {
     return {
-      markdown: `# teste \n ## Mais um teste`,
+      markdown: "# teste \n ## Mais um teste \n ```php lalala mana``` ",
     };
   },
   computed: {
@@ -21,6 +22,5 @@ export default {
       return marked(this.markdown);
     },
   },
-  name: "Markdown",
 };
 </script>
