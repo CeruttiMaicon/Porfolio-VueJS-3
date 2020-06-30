@@ -8,7 +8,6 @@
 
 <script>
 import marked from "marked";
-import { computed, reactive } from "vue";
 
 export default {
   name: "Markdown",
