@@ -7,12 +7,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "marked": "^1.1.0",
     "vue": "^3.0.0-beta.15",
     "vue-router": "4.0.0-alpha.13"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-beta.15",
     "sass": "^1.26.9",
-    "vite": "^1.0.0-beta.3"
+    "vite": "^1.0.0-beta.3",
+    "vue-markdown-loader": "^2.4.1"
   }
 }

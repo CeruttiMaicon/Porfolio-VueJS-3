@@ -1,15 +1,9 @@
 <template>
   <div class="container">
-    <img
-      class="img rounded-circle"
-      alt="Vue logo"
-      src="../assets/ProfilePhoto.png"
-    />
+    <img class="img rounded-circle" alt="Vue logo" src="../assets/ProfilePhoto.png" />
     <h1>Maicon Cerutti</h1>
     <h2 class="mb-5">Minhas competências, anotações e documentações :)</h2>
-    <router-link class="btn btn-primary btn-lg" to="/documentation"
-      >Documentações</router-link
-    >
+    <router-link class="btn btn-primary btn-lg" to="/documentation">Documentações</router-link>
     <hr class="my-5" />
     <posts-index></posts-index>
     <custom-footer />
@@ -23,8 +17,8 @@ import CustomFooter from "../components/footer/CustomFooter.vue";
 export default {
   components: {
     PostsIndex,
-    CustomFooter,
-  },
+    CustomFooter
+  }
 };
 </script>
 

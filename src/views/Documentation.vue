@@ -1,18 +1,22 @@
 <template>
   <div>
-    <SideBar></SideBar>
-    <custom-footer />
+    <side-bar>
+      <markdown></markdown>
+      <custom-footer />
+    </side-bar>
   </div>
 </template>
 
 <script>
 import SideBar from "../components/nav-bar/SideBar.vue";
 import CustomFooter from "../components/footer/CustomFooter.vue";
+import Markdown from "../components/marked/Markdown.vue";
 
 export default {
   components: {
     SideBar,
     CustomFooter,
+    Markdown,
   },
 };
 </script>
