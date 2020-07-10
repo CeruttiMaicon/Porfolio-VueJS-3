@@ -3,7 +3,7 @@
 ## Teste 2
 
 ```php
-códifo
+código php
 ```
 
 lorem ipsun

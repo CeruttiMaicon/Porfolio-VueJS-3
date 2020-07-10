@@ -18,14 +18,14 @@ export default {
   name: "Markdown",
   data() {
     return {
-      markdown: "# teste \n ## Mais um teste \n ```php lalala mana``` ",
+      markdown: ""
     };
   },
   computed: {
-    compiledMarkdown: function () {
+    compiledMarkdown: function() {
       return marked(this.markdown);
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -38,9 +38,16 @@ code {
   z-index: 1;
   padding: 3px;
   color: white !important;
+  padding: 15px;
+  display: block;
 }
 p {
   margin-top: 20px;
   margin-bottom: 10px;
+  padding: 10px;
+}
+pre {
+  height: 70px;
+  padding-top: 20px;
 }
 </style>
