@@ -6,7 +6,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "markdown-it-vue": "^1.1.2",
     "marked": "^1.1.0",
